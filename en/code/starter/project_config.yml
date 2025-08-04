@@ -1,0 +1,4 @@
+name: "Turtley amazing! starter"
+identifier: 'starter-editor-turtley-amazing'
+type: 'python'
+build: true

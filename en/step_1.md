@@ -1,42 +1,11 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## What you will do
+In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visual programming language like Scratch to the text-based environment of Python. 
 
-A brief description - one or two sentences. 
+You’re about to make your screen explode with colour! Grab your turtle and:
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+- Draw epic lines that zig, zag, and swirl
+- Make wild turns to build cool shapes
+- Switch pen colours whenever you feel like it
+- Use loops to grow awesome patterns
+- Stack loops inside loops to unlock crazy spirals
 
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c

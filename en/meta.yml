@@ -25,12 +25,11 @@ steps:
 - title: Turning
 - title: Changing colours
 - title: Repetition
-- title: Better spirals
   completion:
   - internal
 - title: Loopy colours
 - title: Modulo to the rescue
-- title: Enormous lists
-- title: Putting it all together
+- title: Rainbow Spiral
+- title: More Experiments
   completion:
   - external

@@ -1,81 +1,82 @@
 ## Changing colours
 
-The default colour for the pen used by the turtle cursor is black, and the default background colour is white. You can change the colours to make your shapes look even better.
+<div style="border-left: solid; border-width:10px; border-color: #41b653; background-color: #e3f4e6ff; padding: 10px; color: #000000; font-family: inherit;">
+In the next few steps, we’ll keep using a rectangle in the example code so you can see how each new concept works.  
+If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape in the editor! 
+</div> 
 
-- Look at the code below. It contains three variables called `R`, `G`, and `B`.
+Right now our example rectangle is drawn in the default black pen on a white background. Let’s brighten things up by adding colour.  
 
-  <iframe src="https://trinket.io/embed/python/b964b7d3ce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+We’ll use **RGB values** to pick colours. RGB stands for **Red**, **Green**, and **Blue** — each can be set from `0` (none) to `255` (full).  
 
-  Variables are a way of storing a value and giving it a name. For instance, there is a variable name `R` with a value of `255`. 
+--- task ---
 
-  The following line is commented out in the trinket above, but will be needed if you are using another editor. So if you are not working in Trinket, then remove the `#` symbol, to uncomment the line.
-  
-  ```python
-  screen.colormode(255)
-  ```
+Add this code **before** your `turtle.forward(…)` lines to give your shape a bright blue pen colour:  
 
-- Run the code and see what happens. 
-
-- Try changing the values of the three variables, and see what happens. (Note: the maximum value is 255, and after this there will be no effect.) What do you think R, G, and B represent?
-
---- collapse ---
+--- code ---
 ---
-title: Answer
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-10
 ---
+from turtle import Turtle, Screen
 
-`R`, `G` and `B` represent how much red, green, and blue will be used in the colour. Each can have any value from `0` up to `255`.
+turtle = Turtle()
+screen = Screen()
 
-So to make yellow, you could try the following:
-```python
-R = 255
-G = 255
-B = 0
-```
---- /collapse ---
+screen.colormode(255)
+R = 0
+G = 0
+B = 255
+turtle.color((R, G, B))
 
-[[[generic-theory-simple-colours]]]
+# Rectangle example
+turtle.forward(200)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(200)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+--- /code ---
 
-  You can change the value of your variables either by setting them to a new value, or by increasing and decreasing them.
+Run your code in the editor to see your shape drawn in blue.
 
--  You can change the colour of the turtle as well. Run the code below to see what happens:
+--- /task ---
 
-  <iframe src="https://trinket.io/embed/python/ab6732d60e" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+You can change the colour by adjusting the `R`, `G`, and `B` values. For example:  
+- `(255, 0, 0)` = bright red  
+- `(0, 255, 0)` = bright green  
+- `(255, 255, 0)` = yellow  
 
-### Challenge 
 
-Try to complete each of the challenges below.
+--- task ---
 
--  Complete the triangle above with a colour of your choice.
--  Draw a square with sides which are four different shades of red.
--  Draw a cross made of four different colours.
+### Experiment
 
---- hints --- 
---- hint ---
+- [ ] Change the pen colour to your favourite colour.  
+- [ ] Draw the rectangle again with each side in a **different colour**.  
 
-To change a colour, you can just keep adding or subtracting values from the original variables.
+--- /task ---
 
---- /hint --- 
---- hint ---
-
-So you could alter colours by doing the following:
-
+--- hints ---  
+--- hint ---  
+Change `R`, `G`, and `B` before each `turtle.forward(...)` to set a new colour for the next side.  
+--- /hint ---  
+--- hint ---  
+Example for two sides:  
 ```python
 R = 255
 G = 0
 B = 0
+turtle.color((R, G, B))
+turtle.forward(200)
 
+R = 0
+G = 255
+B = 0
 turtle.color((R, G, B))
 turtle.forward(100)
-turtle.right(120)
-
-R -= 20
-G += 20
-B += 5
-
-turtle.color((R, G, B))
-turtle.forward(100)
-turtle.right(120)
-```
-
---- /hint ---
---- /hints ---

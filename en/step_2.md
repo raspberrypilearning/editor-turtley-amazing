@@ -13,7 +13,7 @@ The image above is made up of lines and only lines! To get started, you need to 
 
 --- task ---
 
-Click on ![arrow](images/arrow.png) to see the code working.
+Click on ![arrow](images/arrow.png) to see the code working in the editor.
 
 --- /task ---
 

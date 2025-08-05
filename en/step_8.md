@@ -10,11 +10,9 @@ We’ll create a rainbow spiral by adding lots of vibrant colours to the list.
 
 You can use the [Google Colour Picker](https://share.google/KxLnf2VAJCWk2FNuZ) to find RGB values for your own custom colours.
 
----
-
-### Step 1: Expand the colour list
 --- task ---
 
+### Expand the colour list
 Replace your current `colours` list with this rainbow list:  
 
 --- code ---
@@ -49,21 +47,15 @@ colours = [
 
 --- /task ---
 
----
-
-### Step 2: Enjoy the rainbow
-Your spiral code from Step 8 already uses `colours[i % len(colours)]`, so it will automatically work with this bigger list — no other changes needed.
-
 --- task ---
 
 Run your code to see a rainbow spiral of rectangles.
 
 --- /task ---
 
----
 
-### Challenge
 --- task ---
+### Experiment
 - [ ] Add even more colours to your list for smoother gradients.  
 - [ ] Re‑order the colours to see how it changes the spiral’s look.  
 - [ ] Create a “themed” spiral (e.g., shades of blue, sunset colours, etc.).

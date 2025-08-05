@@ -11,9 +11,6 @@ Now we’ll store a set of colours in a **list** and loop through them.
 A list in Python is written in square brackets `[ ]`, with each item separated by a comma.  
 Each colour here is an **RGB tuple** like `(255, 0, 0)`.
 
----
-
-
 --- task ---
 ### Step 1: Create a list of colours
 Add this list of colours to your script **above** the outer loop:
@@ -41,9 +38,6 @@ colours = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (255, 0, 255), 
 --- /code ---
 
 --- /task ---
-
----
-
 
 --- task ---
 ### Step 2: Use the list in your spiral
@@ -80,13 +74,13 @@ for j in range(30):
     turtle.right(10)
 --- /code ---
 
+--- /task ---
+
 --- task ---
 
 Run your code — you’ll see your spiral change colour using the list.  
 After a while, the program will crash with an **IndexError: list index out of range**.
 We’ll fix it in the next step so it can loop through the colours forever.
-
---- /task ---
 
 --- /task ---
 

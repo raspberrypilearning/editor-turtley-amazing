@@ -1,8 +1,8 @@
-## More experiments
+## Optional advanced experiments
 
 <div style="border-left: solid; border-width:10px; border-color: #ff9800; background-color: #fff3e0; padding: 10px; color: #000000; font-family: inherit;">
 The following activities are **optional extras**.  
-They will replace your current rectangle spiral code if you run them, so make a copy of your finished script first if you want to keep it.  
+They won’t change your main rectangle spiral script — instead, you’ll run them in a separate file.  
 These examples are just for fun — explore and see what patterns you can make!
 </div> 
 
@@ -12,13 +12,22 @@ These examples are just for fun — explore and see what patterns you can make!
 This experiment creates a very different spiral pattern by using a single long loop, adjusting the RGB values each time.
 
 --- task ---
+Click the **files menu** on the left of the screen, then choose **Add file** when the blue button appears.  
+![Click “Add file”](images/addfile.png)  
+--- /task ---
 
-Replace your current code with this and run it:
+--- task ---
+Give your new file a sensible name, such as `better_spirals.py`.  
+--- /task ---
+
+--- task ---
+Copy and paste the code below into your new file.  
+--- /task ---
 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: better_spirals.py
 line_numbers: true
 line_number_start: 1
 ---
@@ -43,6 +52,8 @@ for i in range(2000):
     turtle.right(98)
 --- /code ---
 
+--- task ---
+Run the file to see the result.  
 --- /task ---
 
 Try changing the turn angle in `turtle.right(98)` and see how the spiral changes.
@@ -53,13 +64,21 @@ Try changing the turn angle in `turtle.right(98)` and see how the spiral changes
 This experiment uses **while loops** to generate a long list of colours and then loops through them to draw a complex spiral.
 
 --- task ---
+Click the **files menu** on the left of the screen, then choose **Add file** when the blue button appears.  
+![Click “Add file”](images/addfile.png)  
+--- /task ---
 
-Replace your current code with this and run it:
+--- task ---
+Give your new file a sensible name, such as `whileloop_spiral.py`.  
+--- /task ---
+
+--- task ---
+Copy and paste the code below into your new file:
 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: whileloop_spiral.py
 line_numbers: true
 line_number_start: 1
 ---
@@ -108,8 +127,9 @@ for i in range(3000):
 
 --- /task ---
 
----
-
+--- task ---
+Run the file to see the result.  
+--- /task ---
 
 --- task ---
 ### Experiment

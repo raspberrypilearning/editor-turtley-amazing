@@ -134,10 +134,8 @@ Run the code again — now your spiral changes colour with each rectangle.
 
 --- /task ---
 
----
-
-### Experiment
 --- task ---
+### Experiment
 
 Change the turn amount in `turtle.right(10)` to make tighter or looser spirals.
 - [ ] Try different numbers for `R`, `G`, and `B` changes to see new colour blends.

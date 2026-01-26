@@ -14,8 +14,6 @@ last_tested: "2026-01-26"
 steps:
 - title: Step 1
 - title: Step 2
-- title: Step 1
-- title: Step 2
   completion:
   - engaged
 - title: Step 3

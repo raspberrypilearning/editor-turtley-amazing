@@ -1,11 +1,13 @@
-## What you will do
-In this resource you will take your first steps with the programming language Python to draw shapes, patterns, and spirals. You will use a module named Turtle. Along the way you will learn how to think in sequences, and use loops to repeat a sequence. This is a great stepping stone from a visual programming language like Scratch to the text-based environment of Python. 
+<h2 class="c-project-heading--task">What you will make</h2>
+--- task ---
 
-You’re about to make your screen explode with colour! Grab your turtle and:
+Use a module named Turtle to draw shapes, patterns, and spirals to make your screen explode with colour!
+--- /task ---
 
-- Draw epic lines that zig, zag, and swirl
-- Make wild turns to build cool shapes
-- Switch pen colours whenever you feel like it
-- Use loops to grow awesome patterns
-- Stack loops inside loops to unlock crazy spirals
+Click **Run** to see what you will create.
+
+<div class="c-project-output">
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-turtley-amazing-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
+</div>
 

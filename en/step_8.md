@@ -1,62 +1,47 @@
-## Rainbow spiral
-
-<div style="border-left: solid; border-width:10px; border-color: #41b653; background-color: #e3f4e6ff; padding: 10px; color: #000000; font-family: inherit;">
-We’ll keep using a rectangle in the example code so you can see how each new concept works.  
-If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape in the editor! 
-</div> 
-
-Now that our spiral can loop through a list of colours forever, let’s make that list **bigger and brighter**.  
-We’ll create a rainbow spiral by adding lots of vibrant colours to the list.  
-
-You can use the [Google Colour Picker](https://share.google/KxLnf2VAJCWk2FNuZ) to find RGB values for your own custom colours.
-
+<h2 class="c-project-heading--task">Challenge: Tighter turns</h2>
 --- task ---
 
-### Expand the colour list
-Replace your current `colours` list with this rainbow list:  
+Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
+--- /task ---
 
+Add a new variable called `number_of_shapes`
+
+Then use the variable as the number of shapes to draw and to calculate the angle to turn after each shape is drawn.
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 11
+line_number_start: 9
+line_highlights: 11, 13, 23
 ---
-from turtle import Turtle, Screen
+turtle.speed(0)
 
-turtle = Turtle()
-screen = Screen()
+number_of_shapes = 80
 
-screen.colormode(255)
-R = 0
-G = 0
-B = 255
-turtle.color((R, G, B))
-
-colours = [
-    (255, 0, 0),     # red
-    (255, 165, 0),   # orange
-    (255, 255, 0),   # yellow
-    (0, 255, 0),     # green
-    (0, 127, 255),   # blue
-    (0, 0, 255),     # dark blue
-    (139, 0, 255)    # violet
-]
+for j in range(number_of_shapes):
+    for i in range(2):
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(60)
+        turtle.right(90)
+        R = (R + 5) % 256
+        G = (G + 2) % 256
+        B = (B - 3) % 256
+        turtle.color((R/255, G/255, B/255))
+    turtle.right(360/number_of_shapes)
 --- /code ---
+</div>
 
---- /task ---
+<div class="c-project-output">
 
---- task ---
-
-Run your code to see a rainbow spiral of rectangles.
-
---- /task ---
-
+![A multi-coloured spiral made up of more shapes and colours](images/80_shapes.png)
+</div>
 
 --- task ---
 ### Experiment
-- [ ] Add even more colours to your list for smoother gradients.  
-- [ ] Re‑order the colours to see how it changes the spiral’s look.  
-- [ ] Create a “themed” spiral (e.g., shades of blue, sunset colours, etc.).
+
+Try changing the value of the new variable.
 --- /task ---

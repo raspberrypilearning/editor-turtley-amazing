@@ -1,29 +1,23 @@
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 turtle = Turtle()
-screen = Screen()
 
-screen.colormode(255)
 R = 0
 G = 0
 B = 255
-turtle.color((R, G, B))
 
-colours = [
-    (255, 0, 0),     # red
-    (255, 165, 0),   # orange
-    (255, 255, 0),   # yellow
-    (0, 255, 0),     # green
-    (0, 127, 255),   # blue
-    (0, 0, 255),     # dark blue
-    (139, 0, 255)    # violet
-]
+turtle.speed(0)
 
-for j in range(30):
+number_of_shapes = 80
+
+for j in range(number_of_shapes):
     for i in range(2):
-        turtle.forward(200)
-        turtle.right(90)
         turtle.forward(100)
         turtle.right(90)
-        turtle.color(colours[i % len(colours)])
-    turtle.right(10)
+        turtle.forward(60)
+        turtle.right(90)
+        R = (R + 5) % 256
+        G = (G + 2) % 256
+        B = (B - 3) % 256
+        turtle.color((R / 255, G / 255, B / 255))
+    turtle.right(360 / number_of_shapes)

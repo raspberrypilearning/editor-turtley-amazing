@@ -1,81 +1,65 @@
-
-## Modulo to the rescue!
-
-<div style="border-left: solid; border-width:10px; border-color: #41b653; background-color: #e3f4e6ff; padding: 10px; color: #000000; font-family: inherit;">
-We’ll keep using a rectangle in the example code so you can see how each new concept works.  
-If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape in the editor! 
-</div> 
-
-In the last step, your spiral worked for a while, then crashed with:
-
-```
-
-IndexError: list index out of range
-
-```
-
-This happens because the loop’s counter `i` keeps going up, but our colour list only has a limited number of items.  
-When `i` is bigger than the last position in the list, Python doesn’t know which colour to use.
-
----
-
-### The modulo operator
-The **modulo** operator `%` finds the **remainder** after division.  
-
-For example:  
-- `7 % 3` is `1` (because 3 goes into 7 twice, with 1 left over).  
-- `12 % 5` is `2` (because 5 goes into 12 twice, with 2 left over).  
-
-We can use `%` to make `i` loop back to `0` when it reaches the end of the list.
-
----
-
-### Step 1: Apply modulo to our colour choice
+<h2 class="c-project-heading--task">Multi-colour spiral</h2>
 --- task ---
 
-Change the colour line in your inner loop so it wraps `i` with modulo:
+Draw the spiral again with each rectangle in a **different colour**.  
+--- /task ---
 
+Change the `R`, `G`, and `B` values inside the inner loop so the spiral shifts colour as it draws.
+
+Then set `turtle.color()` each time two sides are drawn
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 20
+line_highlights: 10, 17-20
 ---
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 turtle = Turtle()
-screen = Screen()
 
-screen.colormode(255)
 R = 0
 G = 0
 B = 255
-turtle.color((R, G, B))
 
-colours = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), (255, 0, 255), (0, 255, 255)]
+turtle.speed(0)
 
-for j in range(30):
+for j in range(36):
     for i in range(2):
-        turtle.forward(200)
-        turtle.right(90)
         turtle.forward(100)
         turtle.right(90)
-        turtle.color(colours[i % len(colours)])
+        turtle.forward(60)
+        turtle.right(90)
+        R = (R + 5) % 256
+        G = (G + 2) % 256
+        B = (B - 3) % 256
+        turtle.color((R/255, G/255, B/255))
     turtle.right(10)
 --- /code ---
+</div>
 
---- /task ---
 
 --- task ---
 
-Run your code — now the colours repeat endlessly without an error.
-
+Run your code to see your changes.
 --- /task ---
+
+<div class="c-project-output">
+
+![A multi-coloured spiral](images/spiral_colours.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
 
 --- task ---
 ### Experiment
-- [ ] Try different numbers of colours in your list — the modulo will keep working.  
-- [ ] Make a “rainbow” spiral by adding lots of bright colours.
+
+- Try different numbers for `R`, `G`, and `B` changes to see new colour blends.
+- Make the colour shift faster: increase the numbers you add or subtract from `R`, `G`, or `B`.
+- To slow the colour change, use smaller numbers like `+1` or `-1`.
 --- /task ---
+
+

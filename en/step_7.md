@@ -15,7 +15,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 10, 17-20
+line_highlights: 8, 17-20
 ---
 from turtle import Turtle
 

@@ -9,7 +9,11 @@ duration: 2
 listed: false
 copyedit: false
 last_tested: "2026-01-26"
+copyedit: false
+last_tested: "2026-01-26"
 steps:
+- title: Step 1
+- title: Step 2
 - title: Step 1
 - title: Step 2
   completion:
@@ -20,8 +24,6 @@ steps:
 - title: Step 6
 - title: Step 7
 - title: Step 8
-- title: Step 9
-- title: Step 10
   completion:
   - internal
   - external

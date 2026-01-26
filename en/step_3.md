@@ -26,7 +26,7 @@ turtle.forward(60)
 
 --- task ---
 
-Run your code. What happens?
+Click **Run** to see your new changes.
 
 --- /task ---
 

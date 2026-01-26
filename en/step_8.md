@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Challenge: Tighter turns</h2>
 --- task ---
 
-Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
+ Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
+
 --- /task ---
 
 Add a new variable called `number_of_shapes`
@@ -41,7 +42,9 @@ for j in range(number_of_shapes):
 </div>
 
 --- task ---
+
 ### Experiment
 
 Try changing the value of the new variable.
+
 --- /task ---

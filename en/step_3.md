@@ -1,6 +1,8 @@
 <h2 class="c-project-heading--task">Turning</h2>
 --- task ---
+
 Make the turtle turn around.
+
 --- /task ---
 
 To turn the turtle, it has to move forward and turn right (or left). 

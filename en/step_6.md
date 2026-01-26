@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Draw a spiral of shapes</h2>
 --- task ---
 
-Use loops to create a repeated pattern.
+ Use loops to create a repeated pattern.
+
 --- /task ---
 
 Then, add an outer loop and a small turn after each rectangle.
@@ -38,7 +39,8 @@ for j in range(36):
 
 --- task ---
 
-Run your code — now you have 36 blue rectangles rotated 10° to make a spiral.
+ Run your code — now you have 36 blue rectangles rotated 10° to make a spiral.
+
 --- /task ---
 
 <div class="c-project-output">

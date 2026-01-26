@@ -41,7 +41,6 @@ for j in range(36):
 --- /code ---
 </div>
 
-
 --- task ---
 
 Run your code to see your changes.

@@ -26,15 +26,13 @@ turtle.color((R/255, G/255, B/255))
 
 turtle.speed(0)
 
-number_of_shapes = 36
-
-for j in range(number_of_shapes):
+for j in range(36):
     for i in range(2):
         turtle.forward(100)
         turtle.right(90)
         turtle.forward(60)
         turtle.right(90)
-    turtle.right(360/number_of_shapes)
+    turtle.right(10)
 --- /code ---
 </div>
 

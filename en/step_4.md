@@ -2,8 +2,9 @@
 --- task ---
 
 A rectangle has **two** long sides of equal length (100) and **two** short sides of equal length (60).
-
+ 
 All angles are right angles (90 degrees).
+
 --- /task ---
 
 Add a loop that repeats the path twice to complete the rectangle.
@@ -37,6 +38,7 @@ for i in range(2):
 </div>
 
 --- task ---
+
 ### Experiment
 Try to draw all of these shapes, to become a true shape master:
 

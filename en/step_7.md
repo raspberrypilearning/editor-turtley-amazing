@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Multi-colour spiral</h2>
 --- task ---
 
-Draw the spiral again with each rectangle in a **different colour**.  
+ Draw the spiral again with each rectangle in a **different colour**.  
+
 --- /task ---
 
 Change the `R`, `G`, and `B` values inside the inner loop so the spiral shifts colour as it draws.
@@ -43,7 +44,8 @@ for j in range(36):
 
 --- task ---
 
-Run your code to see your changes.
+ Run your code to see your changes.
+
 --- /task ---
 
 <div class="c-project-output">
@@ -54,11 +56,13 @@ Run your code to see your changes.
 <div class="c-project-callout c-project-callout--tip">
 
 --- task ---
+
 ### Experiment
 
 - Try different numbers for `R`, `G`, and `B` changes to see new colour blends.
 - Make the colour shift faster: increase the numbers you add or subtract from `R`, `G`, or `B`.
 - To slow the colour change, use smaller numbers like `+1` or `-1`.
+ 
 --- /task ---
 
 

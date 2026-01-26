@@ -1,24 +1,39 @@
+<h2 class="c-project-heading--task">Draw a line</h2>
 
-## Is it art, maths, or computer science?
-
-Have a look at the image below. How would you describe it? Is is art, maths, or computer science? 
-
-![](images/screen1.png)
-
-It's a computer-generated image, but making it requires an understanding of art, maths, and computer science. Let's see how you too can make images just like this.
-
-## Drawing a line
-
-The image above is made up of lines and only lines! To get started, you need to know how to draw a line using a little bit of Python code. 
+The number in the line `turtle.forward(200)` is the length.
 
 --- task ---
 
-Click on ![arrow](images/arrow.png) to see the code working in the editor.
+Click **Run** to see the length of a 200 line.
 
 --- /task ---
+
+Change the number in the line `turtle.forward(200)`
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5
+---
+from turtle import Turtle
+
+turtle = Turtle()
+
+turtle.forward(100)
+--- /code ---
+</div>
 
 --- task ---
 
-Now try changing the number in the line `turtle.forward(100)`, click on ![arrow](images/arrow.png) again and see what happens.
+Click **Run** to see your new changes.
 
 --- /task ---
+
+<div class="c-project-output">
+
+![A path formed by a line to the right.](images/line.png)
+</div>

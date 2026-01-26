@@ -1,6 +1,5 @@
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 turtle = Turtle()
-screen = Screen()
 
-turtle.forward(100)
+turtle.forward(200)

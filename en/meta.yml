@@ -7,29 +7,21 @@ original_url: https://raspberrypi.org/learning/turtley-amazing
 theme: violet
 duration: 2
 listed: false
-ingredient: false
-copyedit: true
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: art
-technologies: python
-site_areas: projects
-hardware: ''
-software: python
-version: 3
-last_tested: 2017-01-01
+copyedit: false
+last_tested: "2026-01-26"
 steps:
-- title: What you will do
-- title: Drawing a line
+- title: Step 1
+- title: Step 2
   completion:
   - engaged
-- title: Turning
-- title: Changing colours
-- title: Repetition
+- title: Step 3
+- title: Step 4
+- title: Step 5
+- title: Step 6
+- title: Step 7
+- title: Step 8
+- title: Step 9
+- title: Step 10
   completion:
   - internal
-- title: Loopy colours
-- title: Modulo to the rescue
-- title: Rainbow Spiral
-- title: More Experiments
-  completion:
   - external

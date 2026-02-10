@@ -5,9 +5,7 @@
 
 --- /task ---
 
-Change the `R`, `G`, and `B` values inside the inner loop so the spiral shifts colour as it draws.
-
-Then set `turtle.color()` each time two sides are drawn
+Move the `turtle.color` function inside the inner loop, so the spiral shifts colour each time two sides are drawn.
 
 <div class="c-project-code">
 --- code ---

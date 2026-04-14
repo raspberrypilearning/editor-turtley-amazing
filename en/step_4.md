@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Speedy colour!</h2>
-### Step 1
 
 Give your shape a bright blue pen colour and speed the turtle up!
 
+### Step 1
 
 Add R, G and B values, then change the `color` attribute.
 

@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Multi-colour spiral</h2>
+
+ Draw the spiral again with each rectangle in a **different colour**.
+
 ### Step 1
-
- Draw the spiral again with each rectangle in a **different colour**.  
-
 
 Move the `turtle.color` function inside the inner loop, so the spiral shifts colour each time two sides are drawn.
 

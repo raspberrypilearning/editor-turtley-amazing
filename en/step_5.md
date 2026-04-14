@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Draw a spiral of shapes</h2>
-### Step 1
 
  Use loops to create a repeated pattern.
 
+### Step 1
 
 Then, add an outer loop and a small turn after each rectangle.
 

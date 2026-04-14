@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Challenge: Tighter turns</h2>
-### Step 1
 
  Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
 
+### Step 1
 
 Add a new variable called `number_of_shapes`
 

@@ -11,17 +11,19 @@ copyedit: false
 last_tested: "2026-01-26"
 copyedit: false
 last_tested: "2026-01-26"
+landing: true
 steps:
-- title: Step 1
-- title: Step 2
-  completion:
-  - engaged
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-- title: Step 7
-- title: Step 8
-  completion:
-  - internal
-  - external
+  - title: Draw a line
+  - title: Turning
+    completion:
+      - engaged
+  - title: Draw a rectangle
+  - title: Speedy colour!
+  - title: Draw a spiral of shapes
+    completion:
+      - internal
+  - title: Multi-colour spiral
+    completion:
+      - external
+  - title: "Challenge: Tighter turns"
+    challenge: true

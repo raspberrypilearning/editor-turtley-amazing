@@ -1,8 +1,10 @@
 <h2 class="c-project-heading--task">Multi-colour spiral</h2>
 
- Draw the spiral again with each rectangle in a **different colour**.
+Draw the spiral again with each rectangle in a **different colour**.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Move the `turtle.color` function inside the inner loop, so the spiral shifts colour each time two sides are drawn.
 
@@ -39,9 +41,9 @@ for j in range(36):
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
- Run your code to see your changes.
+Run your code to see your changes.
 
 
 <div class="c-project-output">
@@ -49,12 +51,18 @@ for j in range(36):
 ![A multi-coloured spiral](images/spiral_colours.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
-### Step 3
+## Step 3
 
 ### Experiment
+
+<div class="c-project-callout c-project-callout--tip">
 
 - Try different numbers for `R`, `G`, and `B` changes to see new colour blends.
 - Make the colour shift faster: increase the numbers you add or subtract from `R`, `G`, or `B`.
 - To slow the colour change, use smaller numbers like `+1` or `-1`.
+
+</div>
+
+## Now run your code
+
+Confirm the observable result.

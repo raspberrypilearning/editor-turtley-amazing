@@ -1,8 +1,10 @@
 <h2 class="c-project-heading--task">Challenge: Tighter turns</h2>
 
- Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
+Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Add a new variable called `number_of_shapes`
 
@@ -40,8 +42,12 @@ for j in range(number_of_shapes):
 ![A multi-coloured spiral made up of more shapes and colours](images/80_shapes.png)
 </div>
 
-### Step 2
+## Step 2
 
 ### Experiment
 
 Try changing the value of the new variable.
+
+## Now run your code
+
+Confirm the observable result.

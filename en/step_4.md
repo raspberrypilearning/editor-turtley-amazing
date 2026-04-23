@@ -2,7 +2,9 @@
 
 Give your shape a bright blue pen colour and speed the turtle up!
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Add R, G and B values, then change the `color` attribute.
 
@@ -41,9 +43,9 @@ for i in range(2):
 ![A blue rectangle](images/rectangle_blue.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - **RGB values** are used to pick colours. 
 - RGB stands for **Red**, **Green**, and **Blue**
@@ -53,8 +55,12 @@ for i in range(2):
 
 </div>
 
-### Step 2
+## Step 2
 
 ### Experiment
 
 - Change the pen colour to your favourite colour.
+
+## Now run your code
+
+Confirm the observable result.

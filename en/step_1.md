@@ -2,7 +2,9 @@
 
 The number in the line `turtle.forward(200)` is the length.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Click **Run** to see the length of a 200 line.
 
@@ -26,7 +28,7 @@ turtle.forward(100)
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run** to see your new changes.
 
@@ -35,3 +37,7 @@ Click **Run** to see your new changes.
 
 ![A path formed by a line to the right.](images/line.png)
 </div>
+
+## Now run your code
+
+Confirm the observable result.

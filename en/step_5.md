@@ -1,8 +1,10 @@
 <h2 class="c-project-heading--task">Draw a spiral of shapes</h2>
 
- Use loops to create a repeated pattern.
+Use loops to create a repeated pattern.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Then, add an outer loop and a small turn after each rectangle.
 
@@ -36,9 +38,9 @@ for j in range(36):
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
- Run your code — now you have 36 blue rectangles rotated 10° to make a spiral.
+Run your code — now you have 36 blue rectangles rotated 10° to make a spiral.
 
 
 <div class="c-project-output">
@@ -46,11 +48,15 @@ for j in range(36):
 ![A blue spiral formed of 36 rotated rectangles](images/spiral.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - The outer loop will draw the rectangle many times, turning a little after each one.
 - Rotating 10° each loop: 360 ÷ 10 = 36 steps
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

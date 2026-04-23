@@ -2,7 +2,9 @@
 
 Make the turtle turn around.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 To turn the turtle, it has to move forward and turn right (or left). 
 
@@ -25,7 +27,7 @@ turtle.forward(60)
 --- /code ---
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run** to see your new changes.
 
@@ -35,11 +37,15 @@ Click **Run** to see your new changes.
 ![A path formed by a line to the right, then angled downwards](images/turn.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 - `turtle.right(90)` turns the cursor 90 degrees right. 
 - `turtle.left(90)` turns the cursor 90 degrees left.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

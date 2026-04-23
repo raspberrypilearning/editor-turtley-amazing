@@ -1,10 +1,12 @@
 <h2 class="c-project-heading--task">Draw a rectangle</h2>
 
 A rectangle has **two** long sides of equal length (100) and **two** short sides of equal length (60).
- 
-All angles are right angles (90 degrees).
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
+
+All angles are right angles (90 degrees).
 
 Add a loop that repeats the path twice to complete the rectangle.
 
@@ -36,7 +38,7 @@ for i in range(2):
 ![A path forming a rectangle](images/rectangle.png)
 </div>
 
-### Step 2
+## Step 2
 
 ### Experiment
 Try to draw all of these shapes, to become a true shape master:
@@ -45,3 +47,7 @@ Try to draw all of these shapes, to become a true shape master:
 - Draw a triangle (how many degrees do you need to turn?)
 - Draw a cross (`backward` and `forward` work well together)
 - Draw a circle (what happens if you turn a small amount lots of times, and move forward a tiny bit each time?)
+
+## Now run your code
+
+Confirm the observable result.

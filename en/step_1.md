@@ -40,4 +40,4 @@ Click **Run** to see your new changes.
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the turtle draws a straight line to the right.

@@ -50,4 +50,4 @@ Try to draw all of these shapes, to become a true shape master:
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the turtle draws a rectangle.

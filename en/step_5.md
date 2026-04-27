@@ -59,4 +59,4 @@ Run your code — now you have 36 blue rectangles rotated 10° to make a spiral.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that 36 blue rectangles make a spiral.

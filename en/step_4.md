@@ -63,4 +63,4 @@ for i in range(2):
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the turtle draws your shape in the pen colour you chose.

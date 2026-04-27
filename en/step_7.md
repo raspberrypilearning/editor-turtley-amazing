@@ -50,4 +50,4 @@ Try changing the value of the new variable.
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the spiral now has more shapes and more colour changes.

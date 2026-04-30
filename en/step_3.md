@@ -1,11 +1,14 @@
-<h2 class="c-project-heading--task">Turning</h2>
---- task ---
+<h2 class="c-project-heading--task">Draw a rectangle</h2>
 
-Make the turtle turn around.
+A rectangle has **two** long sides of equal length (100) and **two** short sides of equal length (60).
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-To turn the turtle, it has to move forward and turn right (or left). 
+## Step 1
+
+All angles are right angles (90 degrees).
+
+Add a loop that repeats the path twice to complete the rectangle.
 
 <div class="c-project-code">
 --- code ---
@@ -14,34 +17,37 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 6-7
+line_highlights: 5-9
 ---
 from turtle import Turtle
 
 turtle = Turtle()
 
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(60)
+for i in range(2):
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(60)
+    turtle.right(90)
+
 --- /code ---
+
 </div>
-
---- task ---
-
-Click **Run** to see your new changes.
-
---- /task ---
 
 <div class="c-project-output">
 
-![A path formed by a line to the right, then angled downwards](images/turn.png)
+![A path forming a rectangle](images/rectangle.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+## Step 2
 
-### Tip
+### Experiment
+Try to draw all of these shapes, to become a true shape master:
 
-- `turtle.right(90)` turns the cursor 90 degrees right. 
-- `turtle.left(90)` turns the cursor 90 degrees left.
+- Draw a square.
+- Draw a triangle (how many degrees do you need to turn?)
+- Draw a cross (`backward` and `forward` work well together)
+- Draw a circle (what happens if you turn a small amount lots of times, and move forward a tiny bit each time?)
 
-</div>
+## Now run your code
+
+Click **Run** and check that the turtle draws a rectangle.

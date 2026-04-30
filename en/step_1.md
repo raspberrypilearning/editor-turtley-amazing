@@ -1,14 +1,43 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+<h2 class="c-project-heading--task">Draw a line</h2>
 
-Use a module named Turtle to draw shapes, patterns, and spirals to make your screen explode with colour!
+The number in the line `turtle.forward(200)` is the length.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Click **Run** to see what you will create.
+## Step 1
 
-<div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-turtley-amazing-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+Click **Run** to see the length of a 200 line.
+
+
+Change the number in the line `turtle.forward(200)`
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 5
+---
+from turtle import Turtle
+
+turtle = Turtle()
+
+turtle.forward(100)
+--- /code ---
 </div>
 
+## Step 2
+
+Click **Run** to see your new changes.
+
+
+<div class="c-project-output">
+
+![A path formed by a line to the right.](images/line.png)
+</div>
+
+## Now run your code
+
+Click **Run** and check that the turtle draws a straight line to the right.

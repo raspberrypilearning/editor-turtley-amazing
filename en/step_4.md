@@ -1,13 +1,14 @@
-<h2 class="c-project-heading--task">Draw a rectangle</h2>
---- task ---
+<h2 class="c-project-heading--task">Speedy colour!</h2>
 
-A rectangle has **two** long sides of equal length (100) and **two** short sides of equal length (60).
- 
-All angles are right angles (90 degrees).
+Give your shape a bright blue pen colour and speed the turtle up!
 
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Add a loop that repeats the path twice to complete the rectangle.
+## Step 1
+
+Add R, G and B values, then change the `color` attribute.
+
+Set the speed attribute to `0`, which removes any animation delay.
 
 <div class="c-project-code">
 --- code ---
@@ -16,35 +17,50 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-9
+line_highlights: 5-8, 10
 ---
 from turtle import Turtle
 
 turtle = Turtle()
+
+R = 0
+G = 0
+B = 255
+turtle.color((R/255, G/255, B/255))
+
+turtle.speed(0)
 
 for i in range(2):
     turtle.forward(100)
     turtle.right(90)
     turtle.forward(60)
     turtle.right(90)
-
 --- /code ---
-
 </div>
 
 <div class="c-project-output">
 
-![A path forming a rectangle](images/rectangle.png)
+![A blue rectangle](images/rectangle_blue.png)
 </div>
 
---- task ---
+### Tip
+
+<div class="c-project-callout c-project-callout--tip">
+
+- **RGB values** are used to pick colours. 
+- RGB stands for **Red**, **Green**, and **Blue**
+- Each can be set from `0` (none) to `255` (full). 
+- In the next few steps, a rectangle is used in the example code so you can see how each new concept works.  
+- If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape! 
+
+</div>
+
+## Step 2
 
 ### Experiment
-Try to draw all of these shapes, to become a true shape master:
 
-- Draw a square.
-- Draw a triangle (how many degrees do you need to turn?)
-- Draw a cross (`backward` and `forward` work well together)
-- Draw a circle (what happens if you turn a small amount lots of times, and move forward a tiny bit each time?) 
+- Change the pen colour to your favourite colour.
 
---- /task ---
+## Now run your code
+
+Click **Run** and check that the turtle draws your shape in the pen colour you chose.

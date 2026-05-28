@@ -2,8 +2,6 @@
 
 Use loops to create a repeated pattern.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Then, add an outer loop and a small turn after each rectangle.

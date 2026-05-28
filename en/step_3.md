@@ -1,9 +1,5 @@
 <h2 class="c-project-heading--task">Draw a rectangle</h2>
 
-A rectangle has **two** long sides of equal length (100) and **two** short sides of equal length (60).
-
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 All angles are right angles (90 degrees).

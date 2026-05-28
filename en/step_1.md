@@ -1,9 +1,5 @@
 <h2 class="c-project-heading--task">Draw a line</h2>
 
-The number in the line `turtle.forward(200)` is the length.
-
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Click **Run** to see the length of a 200 line.

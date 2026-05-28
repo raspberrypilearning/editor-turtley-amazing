@@ -2,8 +2,6 @@
 
 Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Add a new variable called `number_of_shapes`

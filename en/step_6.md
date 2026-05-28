@@ -2,8 +2,6 @@
 
 Draw the spiral again with each rectangle in a **different colour**.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Move the `turtle.color` function inside the inner loop, so the spiral shifts colour each time two sides are drawn.

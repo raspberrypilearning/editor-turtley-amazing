@@ -2,8 +2,6 @@
 
 Give your shape a bright blue pen colour and speed the turtle up!
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Add R, G and B values, then change the `color` attribute.

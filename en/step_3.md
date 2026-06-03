@@ -39,11 +39,11 @@ for i in range(2):
 ### Experiment
 Try to draw all of these shapes, to become a true shape master:
 
-- Draw a square.
-- Draw a triangle (how many degrees do you need to turn?)
-- Draw a cross (`backward` and `forward` work well together)
-- Draw a circle (what happens if you turn a small amount lots of times, and move forward a tiny bit each time?)
+- A square (all sides the same length)
+- A triangle (how many degrees do you need to turn?)
+- A cross (`backward` and `forward` work well together)
+- A circle (what happens if you turn a small amount lots of times, and move forward a tiny bit each time?)
 
 ## Now run your code
 
-Click **Run** and check that the turtle draws a rectangle.
+Click **Run** and check that the turtle draws your shape correctly.

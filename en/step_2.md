@@ -46,4 +46,4 @@ Click **Run** to see your new changes.
 
 ## Now run your code
 
-Click **Run** and check that the line turns and then carries on downward.
+Click **Run** and check that the line turns and then carries on drawing in the new direction.

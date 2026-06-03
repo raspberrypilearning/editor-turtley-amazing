@@ -4,7 +4,7 @@ Draw the spiral again with each rectangle in a **different colour**.
 
 ## Step 1
 
-Move the `turtle.color` function inside the inner loop, so the spiral shifts colour each time two sides are drawn.
+Move the `turtle.color` function inside the inner loop, so the spiral shifts colour each time your shape is drawn.
 
 <div class="c-project-code">
 --- code ---
@@ -55,10 +55,10 @@ Run your code to see your changes.
 
 <div class="c-project-callout c-project-callout--tip">
 
-- Try different numbers for `R`, `G`, and `B` changes to see new colour blends.
-- Make the colour shift faster: increase the numbers you add or subtract from `R`, `G`, or `B`.
-- To slow the colour change, use smaller numbers like `+1` or `-1`.
-
+- Try different numbers for `R`, `G`, and `B` to see new colour blends
+- To change the colour slowly, use small numbers like `+1` or `-1`
+- To make the colour shift faster, add or subtract larger numbers from `R`, `G`, or `B`
+  
 </div>
 
 ## Now run your code

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Challenge: Tighter turns</h2>
 
-Change the **amount** the cursor turns, based on the number of shapes you want to make up the spiral.
+Change the **amount** the cursor turns, based on the number of shapes you want in the spiral.
 
 ## Step 1
 
-Add a new variable called `number_of_shapes`
+Add a new variable called `number_of_shapes`.
 
 Then use the variable as the number of shapes to draw and to calculate the angle to turn after each shape is drawn.
 

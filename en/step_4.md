@@ -4,7 +4,7 @@ Give your shape a bright blue pen colour and speed the turtle up!
 
 ## Step 1
 
-Add R, G and B values, then change the `color` attribute.
+Add R, G, and B values, then change the `color` attribute.
 
 Set the speed attribute to `0`, which removes any animation delay.
 
@@ -45,10 +45,10 @@ for i in range(2):
 
 <div class="c-project-callout c-project-callout--tip">
 
-- **RGB values** are used to pick colours. 
+- **RGB values** are used to pick colours 
 - RGB stands for **Red**, **Green**, and **Blue**
-- Each can be set from `0` (none) to `255` (full). 
-- In the next few steps, a rectangle is used in the example code so you can see how each new concept works.  
+- Each can be set from `0` (none) to `255` (full) 
+- We have used a rectangle as the example so you can see how each new concept works  
 - If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape! 
 
 </div>

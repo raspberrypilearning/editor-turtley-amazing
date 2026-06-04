@@ -4,7 +4,7 @@ Use loops to create a repeated pattern.
 
 ## Step 1
 
-Then, add an outer loop and a small turn after each rectangle.
+Add an outer loop and a small turn after each rectangle.
 
 <div class="c-project-code">
 --- code ---
@@ -38,23 +38,23 @@ for j in range(36):
 
 ## Step 2
 
-Run your code — now you have 36 blue rectangles rotated 10° to make a spiral.
+Run your code. Your shape should be repeated 36 times, with each one rotated 10° to make a spiral.
 
 
 <div class="c-project-output">
 
-![A blue spiral formed of 36 rotated rectangles](images/spiral.png)
+![A blue spiral formed of 36 rotated rectangles.](images/spiral.png)
 </div>
 
 ### Tip
 
 <div class="c-project-callout c-project-callout--tip">
 
-- The outer loop will draw the rectangle many times, turning a little after each one.
+- The outer loop will draw your shape many times, turning a little after each one
 - Rotating 10° each loop: 360 ÷ 10 = 36 steps
 
 </div>
 
 ## Now run your code
 
-Run your code and check that 36 blue rectangles make a spiral.
+Run your code and check that your 36 shapes make a spiral.

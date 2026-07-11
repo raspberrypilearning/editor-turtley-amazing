@@ -1,20 +1,10 @@
-<h2 class="c-project-heading--task">Draw a spiral of shapes</h2>
+## Draw a spiral of shapes
 
 Use loops to create a repeated pattern.
 
-## Step 1
-
 Add an outer loop and a small turn after each rectangle.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 12-18
----
+```python filename="main.py" line_numbers="true" line_highlights="12-18"
 from turtle import Turtle
 
 turtle = Turtle()
@@ -33,28 +23,15 @@ for j in range(36):
         turtle.forward(60)
         turtle.right(90)
     turtle.right(10)
---- /code ---
-</div>
+```
 
-## Step 2
-
-Run your code. Your shape should be repeated 36 times, with each one rotated 10° to make a spiral.
-
-
-<div class="c-project-output">
-
-![A blue spiral formed of 36 rotated rectangles.](images/spiral.png)
-</div>
-
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-- The outer loop will draw your shape many times, turning a little after each one
-- Rotating 10° each loop: 360 ÷ 10 = 36 steps
-
-</div>
+> [!TIP]
+>
+> - The outer loop will draw your shape many times, turning a little after each one
+> - Rotating 10° each loop: 360 ÷ 10 = 36 steps
 
 ## Now run your code
 
 Run your code and check that your 36 shapes make a spiral.
+
+![A blue spiral formed of 36 rotated rectangles.](images/spiral.png)

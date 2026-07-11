@@ -1,22 +1,12 @@
-<h2 class="c-project-heading--task">Challenge: Tighter turns</h2>
+## Challenge: Tighter turns
 
 Change the **amount** the cursor turns, based on the number of shapes you want in the spiral.
-
-## Step 1
 
 Add a new variable called `number_of_shapes`.
 
 Then use the variable as the number of shapes to draw and to calculate the angle to turn after each shape is drawn.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 9
-line_highlights: 11, 13, 23
----
+```python filename="main.py" line_numbers="true" line_number_start="9" line_highlights="11,13,23"
 turtle.speed(0)
 
 number_of_shapes = 80
@@ -32,20 +22,16 @@ for j in range(number_of_shapes):
         B = (B - 3) % 256
         turtle.color((R/255, G/255, B/255))
     turtle.right(360/number_of_shapes)
---- /code ---
-</div>
+```
 
-<div class="c-project-output">
-
-![A multi-coloured spiral made up of more shapes and colours](images/80_shapes.png)
-</div>
-
-## Step 2
-
-### Experiment
-
-Try changing the value of the new variable.
+> [!CHALLENGE]
+>
+> ## Experiment
+>
+> Try changing the value of the new variable.
 
 ## Now run your code
 
 Run your code and check that the spiral now has more shapes and more colour changes.
+
+![A multi-coloured spiral made up of more shapes and colours](images/80_shapes.png)

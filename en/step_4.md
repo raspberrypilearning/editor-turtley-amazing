@@ -1,22 +1,12 @@
-<h2 class="c-project-heading--task">Speedy colour!</h2>
+## Speedy colour!
 
 Give your shape a bright blue pen colour and speed the turtle up!
-
-## Step 1
 
 Add R, G, and B values, then change the `color` attribute.
 
 Set the speed attribute to `0`, which removes any animation delay.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 5-8, 10
----
+```python filename="main.py" line_numbers="true" line_highlights="5-8,10"
 from turtle import Turtle
 
 turtle = Turtle()
@@ -33,32 +23,24 @@ for i in range(2):
     turtle.right(90)
     turtle.forward(60)
     turtle.right(90)
---- /code ---
-</div>
+```
 
-<div class="c-project-output">
+> [!TIP]
+>
+> - **RGB values** are used to pick colours
+> - RGB stands for **Red**, **Green**, and **Blue**
+> - Each can be set from `0` (none) to `255` (full)
+> - We have used a rectangle as the example so you can see how each new concept works
+> - If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape!
 
-![A blue rectangle](images/rectangle_blue.png)
-</div>
-
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-- **RGB values** are used to pick colours 
-- RGB stands for **Red**, **Green**, and **Blue**
-- Each can be set from `0` (none) to `255` (full) 
-- We have used a rectangle as the example so you can see how each new concept works  
-- If you made a different shape in earlier steps, that’s fine — just apply the same ideas to your own shape! 
-
-</div>
-
-## Step 2
-
-### Experiment
-
-- Change the pen colour to your favourite colour.
+> [!CHALLENGE]
+>
+> ## Experiment
+>
+> - Change the pen colour to your favourite colour.
 
 ## Now run your code
 
 Click **Run** and check that the turtle draws your shape in the pen colour you chose.
+
+![A blue rectangle](images/rectangle_blue.png)
